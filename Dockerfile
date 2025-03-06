@@ -10,6 +10,6 @@ RUN yarn build
 
 USER node
 
-EXPOSE 3030
+EXPOSE 3200
 
 CMD [ "yarn", "start" ]
